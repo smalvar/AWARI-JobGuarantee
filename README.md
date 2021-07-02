@@ -10,7 +10,7 @@ If you don’t have a Microsoft Azure account or haven’t used it before, you c
 - Search for Container Registry and click on Create.
 - Select Subscription, Resource group and Registry name (in our case: awarimask.azurecr.io is our registry name)
     
-    ```
+    ```python
     # Faz o build as imagens do app e frontend
     $ sudo docker-compose -f api/docker-compose.yml build
     $ docker login pycaret.azurecr.io
