@@ -18,7 +18,8 @@ If you don’t have a Microsoft Azure account or haven’t used it before, you c
 
 You will be prompted for a Username and password. The username is the name of your registry (in this example username is “awarimask”). You can find your password under the Access keys of the Azure Container Registry resource you created.
 
-``` # Configura a tag dentro do container registry
+``` python
+    # Configura a tag dentro do container registry
     $ docker tag api_app awarimask.azurecr.io/api_app
     # Faz o push da imagem no GCR
     $ docker push awarimask.azurecr.io/api_app
